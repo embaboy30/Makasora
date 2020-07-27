@@ -1,2 +1,2 @@
 # Makasora
-What we user for na ginagamit natin
+What we use for na ginagamit natin
