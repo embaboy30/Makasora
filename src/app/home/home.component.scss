@@ -16,3 +16,12 @@ span {
     margin-bottom: 2em;
   }
 }
+
+.active {
+  background-color: yellowgreen;
+  border: 1px solid black;
+}
+
+.notActive {
+  background-color: lightgrey;
+}

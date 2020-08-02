@@ -24,8 +24,7 @@
 
 <div class = "play-container" [ngStyle] = "{
   'background-color' : clickCounter > 4 ? 'yellow' : 'lightgrey',
-  'border' :           clickCounter > 4 ? '1px solid black' : none
-}">
+  'border' :           clickCounter > 4 ? '1px solid black' : none}">
   <ng-template [ngIf]="clickCounter > 4" [ngIfElse] = "none">
   <p>The click counter <strong>IS GREATER</strong> than 4.</p>
   </ng-template>
@@ -39,7 +38,15 @@
   <ng-template [ngIf]="clickCounter > 4" [ngIfElse] = "none">
   <p>The click counter <strong>IS GREATER</strong> than 4.</p>
   </ng-template>
+  <ng-template #none>
+<p>The click counter is <strong>NOT GREATER</strong> than 4.</p>
+  </ng-template>
+</div>
 
+<div class = "play-container" [ngClass] = "setClasses()">
+  <ng-template [ngIf]="clickCounter > 4" [ngIfElse] = "none">
+  <p>The click counter <strong>IS GREATER</strong> than 4.</p>
+  </ng-template>
   <ng-template #none>
 <p>The click counter is <strong>NOT GREATER</strong> than 4.</p>
   </ng-template>
