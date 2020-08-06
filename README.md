@@ -1,2 +1,2 @@
 # Makasora
-This is for the blog sebsite
+## This is a blog site
