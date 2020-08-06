@@ -1,2 +1,2 @@
 # Makasora
-What we use for na ginagamit natin
+This is for the blog sebsite
