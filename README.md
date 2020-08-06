@@ -1,2 +1,1 @@
-# Makasora
-## This is a blog site
+# Blog Website Project
